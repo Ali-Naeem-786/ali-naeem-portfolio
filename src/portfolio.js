@@ -39,7 +39,7 @@ const socialMediaLinks = {
   linkedin: "http://www.linkedin.com/in/ali-naeem-487700226",
   gmail: "alinaeem0303@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/ali.naeem4?mibextid=ZbWKwL",
+  // facebook: "https://www.facebook.com/ali.naeem4?mibextid=ZbWKwL",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -198,6 +198,41 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/battleship.png"),
+      projectName: "BattleShip",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://battleship-production-d0ec.up.railway.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/embellish.jpg"),
+      projectName: "Embellish",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://embellish-e-commerce-website.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/petty.png"),
+      projectName: "Petty",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://petty-shop.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/beachresort.jpg"),
       projectName: "Beach Resort",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -210,16 +245,42 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/battleship.png"),
-      projectName: "BattleShip",
+      image: require("./assets/images/amazon.png"),
+      projectName: "Amazonica",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://battleship-production-d0ec.up.railway.app/"
+          url: "https://amazon-web-site.netlify.app/"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+      image: require("./assets/images/layers.jpg"),
+      projectName: "Layers bakeshop",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://layer-bakeshop.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/sandbox.png"),
+      projectName: "Sandbox",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sand-box-website.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
